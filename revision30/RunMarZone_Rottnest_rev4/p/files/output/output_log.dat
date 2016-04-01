@@ -1,0 +1,839 @@
+        Marxan with Zones v 2.01 
+
+   Marine Reserve Design with Zoning and Annealing
+
+   Marxan with Zones coded by Matthew Watts
+   Written by Ian Ball, Hugh Possingham and Matthew Watts
+
+   Based on Marxan coded by Ian Ball, modified by Matthew Watts
+   Written by Ian Ball and Hugh Possingham
+
+ian.ball@aad.gov.au
+h.possingham@uq.edu.au
+m.watts@uq.edu.au
+
+   Marxan website
+
+http://www.uq.edu.au/marxan
+
+
+Entering in the data files 
+Warning: CM is present and will have no effect.
+   There are -72548340 Planning units.
+  8000480 Planning Unit names read in 
+  0 species read in 
+Warning: No targets specified for zones.
+  0 connections entered 
+-72548340 conservation values counted, 9612096 big matrix size, 2.63127e-312% density of matrix 
+Time passed so far is 0 secs 
+
+Pre-processing Section. 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty -1.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Best:Value 0.0 Cost 0.0 (null) Connection 72350.7 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 1 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 1 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 2 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 2 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 2 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 3 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 3 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Best:Value 0.0 Cost 0.0 (null) Connection 72349.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 4 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 4 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 5 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 5 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 6 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 6 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 7 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 7 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 8 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 8 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 9 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 9 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 10 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 10 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 11 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 11 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 12 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 12 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Best:Value 0.0 Cost 0.0 (null) Connection 72348.3 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 13 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 13 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 14 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 15 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 15 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 16 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 16 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 17 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 17 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 18 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 18 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 18 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 19 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 19 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 20 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 20 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 21 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 21 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 22 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 22 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 23 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 23 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 24 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 24 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Best:Value 0.0 Cost 0.0 (null) Connection 72334.4 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 25 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 25 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 26 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 26 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 27 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 27 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 27 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 28 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 28 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 29 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 29 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 30 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 30 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 31 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 31 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 32 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 32 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 33 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 33 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 34 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 34 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 35 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 35 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 36 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 36 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 37 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 37 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 38 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 38 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 38 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 39 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 39 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 40 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 40 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 41 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 41 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 42 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 42 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 43 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 43 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 44 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 44 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 45 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 45 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM -0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 46 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 46 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 47 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 47 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 47 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 48 secs 
+
+Run 7992752   Using Calculated Tinit = 0.0000 Tcool = 0.00000000 
+  creating the initial reserve 
+
+  Init:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Annealing:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+  Iterative Improvement:Value 0.0 Cost 0.0 (null) Connection 0.0 Missing 49510656 Shortfall 0.00 Penalty 0.0 MPM 0.0
+Time passed so far is 48 secs 
+
+Best solution is run 0
+Time passed so far is 48 secs 
+
+              The End 

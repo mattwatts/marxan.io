@@ -1,0 +1,380 @@
+Marxan with Zones v 2.01 begin execution
+
+LoadOptions
+RandSeed iseed 14230 RandSeed1 -14230
+style is 0
+iMarZoneAnnealingType 1
+before LoadZones
+after LoadZones
+before LoadCostNames
+after LoadCostNames
+before LoadZoneContrib2
+after LoadZoneContrib2
+before LoadZoneCost
+after LoadZoneCost
+Warning: CM is present and will have no effect.
+before LoadZoneConnectionCost
+after LoadZoneConnectionCost
+before LoadPuData
+after LoadPuData
+before LoadCostValues
+after LoadCostValues
+before LoadSpeciesData
+after LoadSpeciesData
+before build search arrays
+after build search arrays
+before Build_ZoneContrib2
+Build_ZoneContrib2 start
+Build_ZoneContrib2 spno 28 iZoneCount 3 iArraySize 84 iZoneContrib2Count 2
+Build_ZoneContrib2 end
+after Build_ZoneContrib2
+before SetAvailableEquivalentZone
+after SetAvailableEquivalentZone available zone is 1
+Warning: No targets specified for zones.
+before Default_ZoneTarget
+after Default_ZoneTarget
+before Build_ZoneCost
+after Build_ZoneCost
+before Build_RelConnectionCost
+Build_ZoneConnectionCost start
+Build_ZoneConnectionCost iZoneCount 3 iArraySize 9 iZoneConnectionCostCount 6
+Build_ZoneConnectionCost end
+after Build_RelConnectionCost
+before BuildZoneSpec
+after BuildZoneSpec
+before InitZoneSpec
+after InitZoneSpec
+before InitSumSoln
+after InitSumSoln
+before ReadConnections
+after ReadConnections
+before LoadSparseMatrix
+after LoadSparseMatrix
+before CalcTotalAreas
+after CalcTotalAreas
+before ApplySpecProp
+after ApplySpecProp
+before process block definitions
+after process block definitions
+before OutputScenario
+after OutputScenario
+before InitialiseReserve
+after InitialiseReserve
+before CalcPenalties
+after CalcPenalties
+annealing start run 1
+before ConnollyInit run 1
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 440.495 Titns 10000 Tcool 0.998349
+ConnollyInit end
+after ConnollyInit run 1
+before ZonationCost run 1
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 1
+before Annealing run 1
+Annealing start iterations 1000000
+Annealing end changes 182349
+after Annealing run 1
+before IterativeImprovementOptimise run 1
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 19
+after IterativeImprovementOptimise run 1
+before file output run 1
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 243
+CostPuZones zone 2 zonecost 1873
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 1
+annealing end run 1
+annealing start run 2
+before ConnollyInit run 2
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 2954.15 Titns 10000 Tcool 0.998071
+ConnollyInit end
+after ConnollyInit run 2
+before ZonationCost run 2
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 2
+before Annealing run 2
+Annealing start iterations 1000000
+Annealing end changes 251499
+after Annealing run 2
+before IterativeImprovementOptimise run 2
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 18
+after IterativeImprovementOptimise run 2
+before file output run 2
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 517
+CostPuZones zone 2 zonecost 1462
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 2
+annealing end run 2
+annealing start run 3
+before ConnollyInit run 3
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 12969 Titns 10000 Tcool 0.998035
+ConnollyInit end
+after ConnollyInit run 3
+before ZonationCost run 3
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 3
+before Annealing run 3
+Annealing start iterations 1000000
+Annealing end changes 320209
+after Annealing run 3
+before IterativeImprovementOptimise run 3
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 21
+after IterativeImprovementOptimise run 3
+before file output run 3
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 656
+CostPuZones zone 2 zonecost 1574
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 3
+annealing end run 3
+annealing start run 4
+before ConnollyInit run 4
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 5201.37 Titns 10000 Tcool 0.998084
+ConnollyInit end
+after ConnollyInit run 4
+before ZonationCost run 4
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 4
+before Annealing run 4
+Annealing start iterations 1000000
+Annealing end changes 280113
+after Annealing run 4
+before IterativeImprovementOptimise run 4
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 32
+after IterativeImprovementOptimise run 4
+before file output run 4
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 590
+CostPuZones zone 2 zonecost 1553
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 4
+annealing end run 4
+annealing start run 5
+before ConnollyInit run 5
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 2458.18 Titns 10000 Tcool 0.99809
+ConnollyInit end
+after ConnollyInit run 5
+before ZonationCost run 5
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 5
+before Annealing run 5
+Annealing start iterations 1000000
+Annealing end changes 243004
+after Annealing run 5
+before IterativeImprovementOptimise run 5
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 25
+after IterativeImprovementOptimise run 5
+before file output run 5
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 371
+CostPuZones zone 2 zonecost 1820
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 5
+annealing end run 5
+annealing start run 6
+before ConnollyInit run 6
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 1737.89 Titns 10000 Tcool 0.998166
+ConnollyInit end
+after ConnollyInit run 6
+before ZonationCost run 6
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 6
+before Annealing run 6
+Annealing start iterations 1000000
+Annealing end changes 235148
+after Annealing run 6
+before IterativeImprovementOptimise run 6
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 19
+after IterativeImprovementOptimise run 6
+before file output run 6
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 1028
+CostPuZones zone 2 zonecost 1215
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 6
+annealing end run 6
+annealing start run 7
+before ConnollyInit run 7
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 517.564 Titns 10000 Tcool 0.998245
+ConnollyInit end
+after ConnollyInit run 7
+before ZonationCost run 7
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 7
+before Annealing run 7
+Annealing start iterations 1000000
+Annealing end changes 180840
+after Annealing run 7
+before IterativeImprovementOptimise run 7
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 19
+after IterativeImprovementOptimise run 7
+before file output run 7
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 378
+CostPuZones zone 2 zonecost 1427
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 7
+annealing end run 7
+annealing start run 8
+before ConnollyInit run 8
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 2799.29 Titns 10000 Tcool 0.998077
+ConnollyInit end
+after ConnollyInit run 8
+before ZonationCost run 8
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 8
+before Annealing run 8
+Annealing start iterations 1000000
+Annealing end changes 247303
+after Annealing run 8
+before IterativeImprovementOptimise run 8
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 31
+after IterativeImprovementOptimise run 8
+before file output run 8
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 449
+CostPuZones zone 2 zonecost 1715
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 8
+annealing end run 8
+annealing start run 9
+before ConnollyInit run 9
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 2465.61 Titns 10000 Tcool 0.998089
+ConnollyInit end
+after ConnollyInit run 9
+before ZonationCost run 9
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 9
+before Annealing run 9
+Annealing start iterations 1000000
+Annealing end changes 242969
+after Annealing run 9
+before IterativeImprovementOptimise run 9
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 36
+after IterativeImprovementOptimise run 9
+before file output run 9
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 749
+CostPuZones zone 2 zonecost 1623
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 9
+annealing end run 9
+annealing start run 10
+before ConnollyInit run 10
+ConnollyInit start cm 0.000000 iMarZoneAnnealingType 1
+SpeciesAmounts start
+SpeciesAmounts end
+Tinit 6912.92 Titns 10000 Tcool 0.998098
+ConnollyInit end
+after ConnollyInit run 10
+before ZonationCost run 10
+SpeciesAmounts start
+SpeciesAmounts end
+after ZonationCost run 10
+before Annealing run 10
+Annealing start iterations 1000000
+Annealing end changes 297810
+after Annealing run 10
+before IterativeImprovementOptimise run 10
+IterativeImprovementOptimise start
+IterativeImprovementOptimise puvalid 16948
+IterativeImprovementOptimise after array init file ÿÿÿÿ
+IterativeImprovementOptimise after heapSort_ii
+IterativeImprovementOptimise end changes 30
+after IterativeImprovementOptimise run 10
+before file output run 10
+CostPuZones zone 0 zonecost 0
+CostPuZones zone 1 zonecost 429
+CostPuZones zone 2 zonecost 1680
+SpeciesAmounts start
+SpeciesAmounts end
+after file output run 10
+annealing end run 10
+before final file output
+Best solution is run 7
+iMarZoneAnnealingType 1
+end final file output
+
+Marxan with Zones end execution
